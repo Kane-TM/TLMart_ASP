@@ -12,11 +12,11 @@ namespace TLMart_ASP.Models
         public int Id { get; set; }
 
         [Required]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         public DateTime StartTime { get; set; }
 
         [Required]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         public DateTime EndTime { get; set; }
 
         [Required]

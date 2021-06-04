@@ -21,7 +21,7 @@ namespace TLMart_ASP.Models
         public string FullName { get; set; }
 
         [Required]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         public DateTime BirthDate { get; set; }
 
         [Required]
