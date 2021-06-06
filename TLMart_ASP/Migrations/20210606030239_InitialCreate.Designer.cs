@@ -10,7 +10,7 @@ using TLMart_ASP.Data;
 namespace TLMart_ASP.Migrations
 {
     [DbContext(typeof(TLMartContext))]
-    [Migration("20210604093455_InitialCreate")]
+    [Migration("20210606030239_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,12 +35,15 @@ namespace TLMart_ASP.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("FullName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Ranking")
@@ -125,8 +128,7 @@ namespace TLMart_ASP.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");

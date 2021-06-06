@@ -148,3 +148,4 @@ D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\Razor\View
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\Razor\Views\Customers\Details.cshtml.g.cs
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\Razor\Views\Customers\Edit.cshtml.g.cs
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\Razor\Views\Customers\Index.cshtml.g.cs
+D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\TLMart_ASP.csprojAssemblyReference.cache

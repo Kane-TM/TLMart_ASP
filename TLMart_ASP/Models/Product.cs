@@ -13,7 +13,6 @@ namespace TLMart_ASP.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "The product name cannot exceed 100 characters")]
         public string Name { get; set; }
 
         [Required]
