@@ -12,6 +12,8 @@ namespace TLMart_ASP.Models
         [Required]
         public int Id { get; set; }
 
+        public string ProductId { get; set; }
+
         [Required]
         public string Name { get; set; }
 

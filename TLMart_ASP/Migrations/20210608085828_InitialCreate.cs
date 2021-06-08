@@ -64,6 +64,7 @@ namespace TLMart_ASP.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    ProductId = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Manufacturer = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MFG = table.Column<DateTime>(type: "datetime2", nullable: false),
