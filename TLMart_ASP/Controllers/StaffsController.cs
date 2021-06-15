@@ -78,6 +78,7 @@ namespace TLMart_ASP.Controllers
         [HttpPost]
         public async Task<ActionResult<Staff>> PostStaff(Staff staff)
         {
+            staff.Password = HashPassword.CreateMD5Hash(staff.Password);
             _context.Staffs.Add(staff);
             await _context.SaveChangesAsync();
 
