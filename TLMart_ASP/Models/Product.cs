@@ -21,12 +21,7 @@ namespace TLMart_ASP.Models
         public string Manufacturer { get; set; }
 
         [Required]
-        [DataType(DataType.DateTime)]
-        public DateTime MFG { get; set; }
-
-        [Required]
-        [DataType(DataType.DateTime)]
-        public DateTime EXP { get; set; }
+        public int Price { get; set; }
 
         [Required]
         public string Image { get; set; }

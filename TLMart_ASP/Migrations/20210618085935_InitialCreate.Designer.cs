@@ -10,7 +10,7 @@ using TLMart_ASP.Data;
 namespace TLMart_ASP.Migrations
 {
     [DbContext(typeof(TLMartContext))]
-    [Migration("20210608085828_InitialCreate")]
+    [Migration("20210618085935_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -112,15 +112,9 @@ namespace TLMart_ASP.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("EXP")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("MFG")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("Manufacturer")
                         .IsRequired()
@@ -132,6 +126,9 @@ namespace TLMart_ASP.Migrations
 
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProductId")
                         .HasColumnType("nvarchar(max)");
