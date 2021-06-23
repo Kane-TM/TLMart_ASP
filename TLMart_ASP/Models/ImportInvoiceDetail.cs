@@ -15,7 +15,7 @@ namespace TLMart_ASP.Models
         public int ImportInvoiceId { get; set; }
 
         [Required]
-        public int ProdcutId { get; set; }
+        public string ProdcutId { get; set; }
 
         [Required]
         public int Quantity { get; set; }

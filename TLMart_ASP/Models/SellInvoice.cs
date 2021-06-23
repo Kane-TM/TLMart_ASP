@@ -18,10 +18,8 @@ namespace TLMart_ASP.Models
         [Required]
         public string StaffId { get; set; }
 
-        [Required]
         public string CustomerId { get; set; }
 
-        [Required]
         public int TotalCash { get; set; }
 
         [Required]
