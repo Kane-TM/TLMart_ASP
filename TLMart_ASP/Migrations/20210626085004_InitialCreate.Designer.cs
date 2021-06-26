@@ -10,7 +10,7 @@ using TLMart_ASP.Data;
 namespace TLMart_ASP.Migrations
 {
     [DbContext(typeof(TLMartContext))]
-    [Migration("20210625075906_InitialCreate")]
+    [Migration("20210626085004_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -228,15 +228,14 @@ namespace TLMart_ASP.Migrations
                     b.Property<int>("Change")
                         .HasColumnType("int");
 
-                    b.Property<string>("CustomerId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("StaffId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("StaffId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");

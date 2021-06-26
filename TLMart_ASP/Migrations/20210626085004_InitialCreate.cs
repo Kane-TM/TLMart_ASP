@@ -147,8 +147,8 @@ namespace TLMart_ASP.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    StaffId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    StaffId = table.Column<int>(type: "int", nullable: false),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
                     Cash = table.Column<int>(type: "int", nullable: false),
                     Change = table.Column<int>(type: "int", nullable: false),
                     TotalCash = table.Column<int>(type: "int", nullable: false),

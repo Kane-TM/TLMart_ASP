@@ -16,9 +16,9 @@ namespace TLMart_ASP.Models
         public DateTime Date { get; set; }
 
         [Required]
-        public string StaffId { get; set; }
+        public int StaffId { get; set; }
 
-        public string CustomerId { get; set; }
+        public int CustomerId { get; set; }
 
         public int Cash { get; set; }
 
