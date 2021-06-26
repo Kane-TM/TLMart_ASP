@@ -149,6 +149,8 @@ namespace TLMart_ASP.Migrations
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     StaffId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Cash = table.Column<int>(type: "int", nullable: false),
+                    Change = table.Column<int>(type: "int", nullable: false),
                     TotalCash = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false)
                 },

@@ -20,6 +20,10 @@ namespace TLMart_ASP.Models
 
         public string CustomerId { get; set; }
 
+        public int Cash { get; set; }
+
+        public int Change { get; set; }
+
         public int TotalCash { get; set; }
 
         [Required]
