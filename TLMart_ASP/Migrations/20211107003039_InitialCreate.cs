@@ -19,7 +19,6 @@ namespace TLMart_ASP.Migrations
                     BirthDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TotalPoint = table.Column<int>(type: "int", nullable: false),
-                    Ranking = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Status = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -149,8 +148,6 @@ namespace TLMart_ASP.Migrations
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     StaffId = table.Column<int>(type: "int", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
-                    Cash = table.Column<int>(type: "int", nullable: false),
-                    Change = table.Column<int>(type: "int", nullable: false),
                     TotalCash = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false)
                 },
