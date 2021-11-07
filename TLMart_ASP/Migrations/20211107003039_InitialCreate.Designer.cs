@@ -10,7 +10,7 @@ using TLMart_ASP.Data;
 namespace TLMart_ASP.Migrations
 {
     [DbContext(typeof(TLMartContext))]
-    [Migration("20210626085004_InitialCreate")]
+    [Migration("20211107003039_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,9 +44,6 @@ namespace TLMart_ASP.Migrations
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Ranking")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -221,12 +218,6 @@ namespace TLMart_ASP.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("Cash")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Change")
-                        .HasColumnType("int");
 
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");

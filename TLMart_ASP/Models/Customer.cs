@@ -28,8 +28,6 @@ namespace TLMart_ASP.Models
 
         public int TotalPoint { get; set; }
 
-        public string Ranking { get; set; }
-
         [Required]
         public int Status { get; set; }
     }
