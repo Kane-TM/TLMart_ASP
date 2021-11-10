@@ -32,6 +32,9 @@ namespace TLMart_ASP.Models
         public string Note { get; set; }
 
         [Required]
+        public int Amount { get; set; }
+
+        [Required]
         public int TypeId { get; set; }
 
         [Required]

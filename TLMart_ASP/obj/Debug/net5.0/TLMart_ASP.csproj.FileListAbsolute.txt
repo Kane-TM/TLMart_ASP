@@ -148,3 +148,4 @@ D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\bin\Debug\net5.0\runtimes\w
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\TLMart_ASP.Views.pdb
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\TLMart_ASP.csproj.CopyComplete
 D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\TLMart_ASP.genruntimeconfig.cache
+D:\CaoThang\DA_TOTNGHIEP\Clone\TLMart_ASP\TLMart_ASP\obj\Debug\net5.0\TLMart_ASP.csprojAssemblyReference.cache
