@@ -20,7 +20,19 @@ namespace TLMart_ASP.Models
         public DateTime EndTime { get; set; }
 
         [Required]
+        public string SaleId { get; set; }
+
+        [Required]
         public string Content { get; set; }
+
+        [Required]
+        public string ProductId { get; set; }
+
+        [Required]
+        public int Amount { get; set; }
+
+        [Required]
+        public int Price { get; set; }
 
         [Required]
         public int Status { get; set; }

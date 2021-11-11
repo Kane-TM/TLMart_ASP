@@ -16,17 +16,12 @@ namespace TLMart_ASP.Data
 
         public DbSet<Customer> Customers { get; set; }
 
-        public DbSet<ImportInvoice> ImportInvoices { get; set; }
-
-        public DbSet<ImportInvoiceDetail> ImportInvoiceDetails { get; set; }
-
         public DbSet<Product> Products { get; set; }
 
         public DbSet<ProductType> ProductTypes { get; set; }
 
         public DbSet<Sale> Sales { get; set; }
 
-        public DbSet<SaleDetail> SaleDetails { get; set; }
 
         public DbSet<SellInvoice> SellInvoices { get; set; }
 
