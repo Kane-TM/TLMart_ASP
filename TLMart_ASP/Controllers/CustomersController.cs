@@ -78,8 +78,6 @@ namespace TLMart_ASP.Controllers
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
-
-            customer.Password = HashPassword.CreateMD5Hash(customer.Password);
             _context.Customers.Add(customer);
             await _context.SaveChangesAsync();
 
